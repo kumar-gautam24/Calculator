@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(
         const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home:  const SplashScreen(),
       theme: ThemeData(
         primarySwatch: Colors.brown,
